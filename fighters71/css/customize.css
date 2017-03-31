@@ -1,0 +1,272 @@
+@import url('http://weloveiconfonts.com/api/?family=entypo');  /*  social-link  */
+
+
+
+/*....................................... Navigation Bar .......................................*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #FF0000;
+    background-color: #006A4E;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #006A4E;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #FF0000;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #FF0000;
+    background-color: #006A4E;
+}
+.dropdown-menu>li>a {
+    color: #006A4E;
+    font-weight: bold;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #FF0000;
+    text-decoration: none;
+    background-color: #006A4E;
+}
+@media (max-width: 767px){
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #006A4E;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #FF0000;
+    background-color: transparent;
+}
+}
+
+/*....................................... Navigation Bar End ......................................*/
+
+/*....................................... Side Menu ......................................*/
+
+#nav-stacked li a{
+	color: #006A4E;
+    font-weight: bold;
+}
+
+#nav-stacked li a:hover{
+	color: #F42A41;
+    background-color: #006A4E;
+}
+#nav-stacked li .active{
+    background-color: #e7e7e7;
+}
+
+#nav-stacked .caret {
+    border-left: 4px dashed;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+#dropdownhover-bottom{
+    min-width: 200px;
+    top: 0%;
+    left: 100px;
+}
+
+/*....................................... Navigation Bar End ......................................*/
+
+/*....................................... Pagination Start ......................................*/
+div.pagination {
+padding: 3px;
+margin: 5px;
+text-align:center;
+font-size:12px;
+}
+
+div.pagination a {
+padding: 2px 5px 2px 5px;
+margin: 5px;
+border: 1px solid #006A4E;
+
+text-decoration: none; /* no underline */
+color: #006A4E;
+}
+div.pagination a:hover, div.digg a:active {
+border: 1px solid #006A4E;
+
+color: #FF0000;
+}
+div.pagination span.current {
+padding: 2px 5px 2px 5px;
+margin: 5px;
+border: 1px solid #006A4E;
+
+font-weight: bold;
+background-color: #006A4E;
+color: #FF0000;
+}
+div.pagination span.disabled {
+padding: 2px 5px 2px 5px;
+margin: 5px;
+border: 1px solid #EEE;
+color: #DDD;
+}
+/*....................................... Pagination End ......................................*/
+/*....................................... Footer ......................................*/
+
+#footer-section-title-info
+{
+	margin-top: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.footer-links
+{
+	cursor: pointer;
+	color: black;
+	font-family: sans-serif;
+	padding: 10px;
+}
+
+.info-links:hover {
+    background-color: #34495e;
+    color: #FFFFFF;
+}
+.footer-links {
+    cursor: pointer;
+    color: black;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.footer-message { margin-top: 15px; }
+
+#footer-section-title-big-info
+{
+	font-family: sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#footer-big-info-body
+{
+	color: black;
+	font-family: sans-serif;
+	margin: 10px;
+	text-align: center;
+}
+
+#footer-site-logo { width: 200px; }
+
+footer .copyright
+{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+footer { color: black; }
+
+#footer-dff
+{
+	font-family: sans-serif;
+	color: black;
+}
+
+.modal-backdrop{
+    z-index: 0;
+}
+
+/*....................................... Footer End ......................................*/
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Social link <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.box {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  line-height: 55px;
+  font-family: Entypo;
+  font-size: 28px;
+  text-align: center;
+  color: #151718;
+  border-radius: 48%;
+  background: #eee;
+  overflow: hidden;
+  cursor: pointer;
+  transition:all .8s ease;
+}
+.box:hover {
+    transition:.5s linear;
+    color: white;   
+      
+}
+
+#facebook:hover {
+    background-color: #3a5795;
+    box-shadow: inset 0 0 0 22px #3a5795;
+}
+#twitter:hover {
+    background-color: #00acee;
+    box-shadow: inset 0 0 0 22px #00acee;
+}
+#google:hover {
+    background-color: #dd4b39;
+    box-shadow: inset 0 0 0 22px #dd4b39;
+}
+#linkedin:hover {
+    background-color:#0e76a8;
+    box-shadow: inset 0 0 0 25px #0e76a8;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Slider <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+        
+        /* jssor slider bullet navigator skin 01 css */
+        /*
+        .jssorb01 div           (normal)
+        .jssorb01 div:hover     (normal mouseover)
+        .jssorb01 .av           (active)
+        .jssorb01 .av:hover     (active mouseover)
+        .jssorb01 .dn           (mousedown)
+        */
+        .jssorb01 {
+            position: absolute;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 12px;
+            height: 12px;
+            filter: alpha(opacity=70);
+            opacity: .7;
+            overflow: hidden;
+            cursor: pointer;
+            border: #000 1px solid;
+        }
+        .jssorb01 div { background-color: gray; }
+        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+        .jssorb01 .av { background-color: #fff; }
+        .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+        /* jssor slider arrow navigator skin 13 css */
+        /*
+        .jssora13l                  (normal)
+        .jssora13r                  (normal)
+        .jssora13l:hover            (normal mouseover)
+        .jssora13r:hover            (normal mouseover)
+        .jssora13l.jssora13ldn      (mousedown)
+        .jssora13r.jssora13rdn      (mousedown)
+        */
+        .jssora13l, .jssora13r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 50px;
+            cursor: pointer;
+            background: url('../img/a13.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora13l { background-position: -10px -35px; }
+        .jssora13r { background-position: -70px -35px; }
+        .jssora13l:hover { background-position: -130px -35px; }
+        .jssora13r:hover { background-position: -190px -35px; }
+        .jssora13l.jssora13ldn { background-position: -250px -35px; }
+        .jssora13r.jssora13rdn { background-position: -310px -35px; }
